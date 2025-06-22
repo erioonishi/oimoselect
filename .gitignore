@@ -1,0 +1,27 @@
+# コンパイルされたバイナリファイル（binディレクトリなど）
+/bin/
+
+# 実行時に生成される一時ファイルやログ
+*.log
+*.tmp
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# Eclipse関連のファイル
+*.class
+.project
+.classpath
+.settings/
+
+# VSCode関連（もし使用していれば）
+.vscode/
+
+# その他、Java開発でよく無視されるもの
+*.swp
+*.swo
+
+# IDEA（IntelliJ）を使う場合（将来の拡張のために入れておいてもOK）
+.idea/
+*.iml
